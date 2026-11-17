@@ -33,6 +33,17 @@ K662D 是 FTTR 从机：2GE + Wi-Fi 6，光纤或以太上行，出厂必须配�
 
 `K662d_V500R021C00SPC156.bin`，43 MB。R22 不靠本地刷，是先刷到 R21 S156 后由主猫推送。
 
+## 相关仓库
+
+同品牌其它机型，命令体系相近，排障时可以互相参照；每个仓库开头都对应一篇文章：
+
+- [华为 F30 工具包](https://github.com/dellzou/Huawei_F30_Flashing_Software_and_Tutorial)：华为 F30，改 SN、改 MAC、取超密
+- [华为 HN8145X6 工具包](https://github.com/dellzou/Huawei_HN8145X6_Flashing_Software_and_Tutorial)：华为 HN8145X6，补全 AllShell、改光模
+- [华为 HN8145XR 工具包](https://github.com/dellzou/Huawei_HN8145XR_Flashing_Software_and_Tutorial)：华为 HN8145XR，主猫改公版、从猫组网
+- [华为 V173-50 工具包](https://github.com/dellzou/Huawei_V173-50_Flashing_Software_and_Tutorial)：华为 V173-50，R24 装备包与 OBSCTool 日志
+- [华为 V173 工具包](https://github.com/dellzou/Huawei_V173_Flashing_Software_and_Tutorial)：华为 V173 主猫，补全 Shell、改公版、改 boardinfo
+- [华为 V175 工具包](https://github.com/dellzou/Huawei_V175_Flashing_Software_and_Tutorial)：华为 V175，R23 固件包开 Telnet
+
 ## 注意
 
 - 改之前备份 `hw_boardinfo`、`hw_boardinfo.bak`、`customize.txt` 三个文件，缺一不可。
